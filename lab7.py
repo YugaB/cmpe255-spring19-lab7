@@ -51,7 +51,7 @@ def import_iris():
     # Read dataset to pandas dataframe
     irisdata = pd.read_csv(url, names=colnames) 
 
-    # process
+    # process--
     X = irisdata.drop('Class', axis=1)  
     y = irisdata['Class']  
 
